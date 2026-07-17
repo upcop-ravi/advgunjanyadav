@@ -11,8 +11,12 @@
 .custom-scrollbar::-webkit-scrollbar-track { background: #031712; }
 .custom-scrollbar::-webkit-scrollbar-thumb { background: #A3803B; border-radius: 10px; }
 
-/* Smooth Scroll */
-html { scroll-behavior: smooth; }
+/* Smooth Scroll & Layout Guard */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
 .scroll-smooth { scroll-behavior: smooth; }
 
 /* Team Carousel */
@@ -224,4 +228,32 @@ html { scroll-behavior: smooth; }
         gap: 0.5rem !important;
     }
 }
+
+/* Mobile & Tablet Overrides for the Top Utility Bar */
+@media (max-width: 1023px) {
+    body > div.bg-navy-950.text-stone-400 {
+        display: block !important;
+        padding-top: 0.75rem !important;
+        padding-bottom: 0.75rem !important;
+    }
+    
+    body > div.bg-navy-950.text-stone-400 > .container {
+        flex-direction: column !important;
+        gap: 0.75rem !important;
+    }
+    
+    body > div.bg-navy-950.text-stone-400 > .container > div:first-child {
+        flex-direction: row !important;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        gap: 0.75rem 1.25rem !important;
+    }
+    
+    body > div.bg-navy-950.text-stone-400 > .container > div:last-child {
+        justify-content: center !important;
+        width: 100%;
+        gap: 1.25rem !important;
+    }
+}
+
 
