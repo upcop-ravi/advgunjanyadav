@@ -256,4 +256,28 @@ html, body {
     }
 }
 
+/* Responsive Red Urgent Assistance Banner Layout */
+@media (max-width: 1023px) {
+    div[class*="from-red-900"] > div,
+    .from-red-900 > .container,
+    .from-red-900 > div {
+        flex-direction: row !important;
+        justify-content: center !important;
+        flex-wrap: wrap !important;
+        gap: 0.5rem 2rem !important;
+        text-align: center !important;
+    }
+}
+@media (max-width: 639px) {
+    div[class*="from-red-900"] > div,
+    .from-red-900 > .container,
+    .from-red-900 > div {
+        flex-direction: column !important;
+        gap: 0.5rem !important;
+    }
+}
+
+
+
+
 
