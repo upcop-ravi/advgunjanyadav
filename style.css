@@ -1,0 +1,227 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+/* Global Font Definitions */
+.font-serif { font-family: 'Merriweather', serif; }
+.font-body { font-family: 'Lora', serif; }
+.font-sans { font-family: 'Inter', sans-serif; }
+.font-classic { font-family: 'Cinzel', serif; }
+
+/* Custom Scrollbar */
+.custom-scrollbar::-webkit-scrollbar { width: 4px; }
+.custom-scrollbar::-webkit-scrollbar-track { background: #031712; }
+.custom-scrollbar::-webkit-scrollbar-thumb { background: #A3803B; border-radius: 10px; }
+
+/* Smooth Scroll */
+html { scroll-behavior: smooth; }
+.scroll-smooth { scroll-behavior: smooth; }
+
+/* Team Carousel */
+#team-track {
+    scroll-snap-type: x mandatory;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+#team-track::-webkit-scrollbar {
+    display: none;
+}
+.team-item {
+    scroll-snap-align: start;
+    flex-shrink: 0;
+}
+#team-section {
+    min-height: 400px;
+}
+
+
+/* Navigation Links Animation */
+.nav-link::after { 
+    content: ''; 
+    position: absolute; 
+    width: 0; 
+    height: 2px; 
+    bottom: -4px; 
+    left: 0; 
+    background-color: #C5A059; 
+    transition: width 0.3s ease; 
+}
+.nav-link:hover::after { width: 100%; }
+.group:hover .nav-link::after { width: 100%; }
+
+/* Card & Box Styling */
+.legal-header { font-family: 'Cinzel', serif; letter-spacing: 0.1em; }
+.glass-card { 
+    background: rgba(255, 255, 255, 0.03); 
+    backdrop-filter: blur(12px); 
+    -webkit-backdrop-filter: blur(12px); 
+    border: 1px solid rgba(255, 255, 255, 0.1); 
+}
+.glass-morphism { 
+    background: rgba(255, 255, 255, 0.05); 
+    backdrop-filter: blur(10px); 
+    border: 1px solid rgba(255, 255, 255, 0.1); 
+}
+
+/* Gradients */
+.gold-gradient-text { 
+    background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728, #fbf5b7, #aa771c); 
+    -webkit-background-clip: text; 
+    background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+}
+.premium-gradient-text { 
+    background: linear-gradient(to right, #C5A059, #A3803B, #D4AF37); 
+    -webkit-background-clip: text; 
+    background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+}
+
+/* Roadmap line for Writ pages */
+.roadmap-line::before { 
+    content: ''; 
+    position: absolute; 
+    left: 50%; 
+    top: 0; 
+    bottom: 0; 
+    width: 2px; 
+    background: linear-gradient(to bottom, transparent, #C5A059, transparent); 
+}
+@media (max-width: 768px) { 
+    .roadmap-line::before { left: 20px; } 
+}
+.highlight-border { 
+    border-left: 4px solid #C5A059; 
+    padding-left: 1.5rem; 
+}
+
+/* Carousels & Sliders */
+#team-track { 
+    scroll-snap-type: x mandatory; 
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+    overflow-x: auto; 
+    scroll-behavior: smooth; 
+}
+#team-track::-webkit-scrollbar { display: none; }
+.team-item { scroll-snap-align: start; flex-shrink: 0; }
+#team-section { min-height: 400px; }
+[cloak] { display: none; }
+
+/* Background Pattern Utilities */
+.bg-pattern-gplay { background-image: url('https://www.transparenttextures.com/patterns/gplay.png'); }
+.bg-pattern-cubes { background-image: url('https://www.transparenttextures.com/patterns/cubes.png'); }
+.bg-pattern-wood { background-image: url('https://www.transparenttextures.com/patterns/wood-pattern.png'); }
+.bg-pattern-graphy { background-image: url('https://www.transparenttextures.com/patterns/graphy.png'); }
+.bg-pattern-pinstriped { background-image: url('https://www.transparenttextures.com/patterns/pinstriped-suit.png'); }
+
+/* Component Styling */
+
+/* Social media links in topbar & footer */
+.social-icon-link {
+    color: #a8a29e; /* text-stone-400 */
+    transition: all 0.3s ease;
+}
+.social-icon-link:hover {
+    color: #C5A059; /* text-gold-500 */
+    transform: translateY(-2px); /* hover:-translate-y-0.5 */
+}
+
+/* Header utility items */
+.header-utility-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; /* gap-2 */
+    color: #a8a29e; /* text-stone-400 */
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 10px;
+    cursor: default;
+}
+.header-utility-item svg {
+    color: #C5A059; /* text-gold-500 */
+    transition: transform 0.3s ease;
+}
+.header-utility-item:hover svg {
+    transform: scale(1.1); /* group-hover:scale-110 */
+}
+
+/* Floating WhatsApp button */
+.whatsapp-float-btn {
+    position: fixed;
+    bottom: 2.5rem; /* bottom-10 */
+    right: 2.5rem; /* right-10 */
+    z-index: 60; /* z-[60] */
+    display: none; /* hidden */
+    align-items: center;
+    justify-content: center;
+    width: 3.5rem; /* w-14 */
+    height: 3.5rem; /* h-14 */
+    background-color: #22c55e; /* bg-green-500 */
+    color: white;
+    border-radius: 9999px; /* rounded-full */
+    box-shadow: 0 10px 30px rgba(34, 197, 94, 0.4);
+    transition: all 0.3s ease;
+}
+@media (min-width: 768px) {
+    .whatsapp-float-btn {
+        display: flex; /* md:flex */
+    }
+}
+.whatsapp-float-btn:hover {
+    box-shadow: 0 15px 40px rgba(34, 197, 94, 0.6);
+    transform: translateY(-4px); /* hover:-translate-y-1 */
+}
+.whatsapp-float-btn:active {
+    transform: scale(0.9); /* active:scale-90 */
+}
+
+/* Mobile View Overrides for Legal Disclaimer Popup */
+@media (max-width: 768px) {
+    #disclaimer-modal aside {
+        padding: 0.75rem !important; /* compact sidebar on mobile */
+        gap: 0.75rem !important;
+        flex-direction: row !important; /* side by side layout on mobile */
+    }
+    #disclaimer-modal aside img {
+        width: 3rem !important; /* 48px logo on mobile */
+        height: 3rem !important;
+    }
+    #disclaimer-modal aside .mt-4 {
+        margin-top: 0 !important;
+        text-align: left !important;
+    }
+    #disclaimer-modal aside span {
+        font-size: 0.65rem !important;
+    }
+    .popup-title {
+        font-size: 1.15rem !important; /* compact h2 on mobile */
+        margin-bottom: 0.75rem !important;
+        padding-bottom: 0.5rem !important;
+    }
+    .popup-description {
+        font-size: 0.7rem !important; /* readable smaller description text */
+        line-height: 1.45 !important;
+    }
+    .popup-description p {
+        font-size: 0.725rem !important; /* readable body text */
+        margin-bottom: 0.5rem !important;
+    }
+    .popup-description ul {
+        padding-left: 1rem !important;
+    }
+    .popup-description li {
+        margin-bottom: 0.35rem !important;
+    }
+    .popup-description .bg-stone-100 {
+        padding: 0.75rem !important;
+        margin-top: 0.75rem !important;
+        margin-bottom: 0.75rem !important;
+        font-size: 0.7rem !important;
+    }
+    .popup-form {
+        margin-top: 0.75rem !important;
+        padding-top: 0.75rem !important;
+        gap: 0.5rem !important;
+    }
+}
+
