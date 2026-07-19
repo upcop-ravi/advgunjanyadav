@@ -220,15 +220,21 @@
                     </a>
                 </div>
                 <!-- Theme Toggle -->
-                <button id="theme-toggle" aria-label="Toggle dark mode"
-                    class="flex items-center gap-2 text-gold-500 hover:text-white transition group bg-white/5 px-2.5 py-0.5 rounded-full border border-white/5 hover:border-gold-500/50">
-                    <svg id="theme-toggle-dark-icon"
-                        class="w-3 h-3 group-hover:rotate-180 transition-transform duration-500" fill="currentColor"
-                        viewBox="0 0 20 20">
-                        <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
-                    </svg>
-                    <span class="text-[9px]">THEME</span>
-                </button>
+                <div class="inline-flex items-center rounded-full bg-white/5 border border-white/10 p-0.5 backdrop-blur-md shadow-sm hover:border-gold-500/40 transition-all">
+    <button id="theme-toggle" aria-label="Toggle dark mode" class="flex items-center gap-1.5 text-gold-500 hover:text-white px-2 py-0.5 rounded-l-full transition group">
+        <svg id="theme-toggle-dark-icon" class="w-3 h-3 group-hover:rotate-180 transition-transform duration-500" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+        </svg>
+        <span class="text-[9px] font-bold tracking-wider">THEME</span>
+    </button>
+    <span class="w-[1px] h-3 bg-white/20"></span>
+    <a href="dashboard/index.html" title="Admin Portal Login" class="flex items-center gap-1.5 text-gold-500 hover:text-white px-2 py-0.5 rounded-r-full transition group">
+        <svg class="w-3 h-3 group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"></path>
+        </svg>
+        <span class="text-[9px] font-bold tracking-wider">LOGIN</span>
+    </a>
+</div>
             </div>
         </div>
     </div>
