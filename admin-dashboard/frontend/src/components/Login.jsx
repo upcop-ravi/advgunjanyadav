@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { supabase } from '../supabaseClient';
-import { Shield, Lock, Mail, Scale } from 'lucide-react';
+import { Shield, Lock, Mail, Scale, ArrowLeft } from 'lucide-react';
 
 export default function Login({ onLoginSuccess }) {
   const [email, setEmail] = useState('');
@@ -52,12 +52,25 @@ export default function Login({ onLoginSuccess }) {
       {/* Background patterns */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-[#072C22] via-[#031712] to-[#010806] opacity-80 pointer-events-none"></div>
 
-      <div className="max-w-md w-full space-y-8 bg-[#072C22]/40 backdrop-blur-xl border border-gold-500/20 p-8 rounded-2xl shadow-2xl relative">
-        <div className="text-center">
+      <div className="max-w-md w-full space-y-6 bg-[#072C22]/40 backdrop-blur-xl border border-gold-500/20 p-8 rounded-2xl shadow-2xl relative">
+        
+        {/* Navigation back to homepage */}
+        <div className="flex justify-between items-center border-b border-gold-500/10 pb-4">
+          <a
+            href="../index.html"
+            className="inline-flex items-center text-xs font-semibold text-stone-400 hover:text-gold-400 transition-colors font-sans gap-2"
+          >
+            <ArrowLeft className="h-4 w-4" />
+            Back to Website Home
+          </a>
+          <span className="text-[10px] text-gold-500/70 uppercase tracking-widest font-mono">Portal Console</span>
+        </div>
+
+        <div className="text-center pt-2">
           <div className="mx-auto h-16 w-16 bg-gold-500/10 border border-gold-400/30 rounded-full flex items-center justify-center animate-pulse">
             <Scale className="h-8 w-8 text-gold-400" />
           </div>
-          <h2 className="mt-6 text-3xl font-bold tracking-tight text-white font-serif">
+          <h2 className="mt-4 text-3xl font-bold tracking-tight text-white font-serif">
             Adv. Gunjan Yadav
           </h2>
           <p className="mt-2 text-sm text-stone-400 font-sans">
