@@ -1,5 +1,3 @@
 User-agent: *
 Allow: /
-
-Sitemap: https://upcop-ravi.github.io/advgunjanyadav/sitemap.xml
 Sitemap: https://advocategunjanyadav.legal/sitemap.xml
