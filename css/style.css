@@ -7008,3 +7008,5 @@ video {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
+
+.whatsapp-float-btn{position:fixed;bottom:1.5rem;right:1.5rem;z-index:80;width:3.25rem;height:3.25rem;display:flex;align-items:center;justify-content:center;border-radius:9999px;background-color:#25d366;color:#fff;box-shadow:0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -4px rgba(0,0,0,.1);transition:transform .2s ease-in-out,box-shadow .2s ease-in-out}.whatsapp-float-btn:hover{transform:scale(1.1);box-shadow:0 20px 25px -5px rgba(0,0,0,.1),0 8px 10px -6px rgba(0,0,0,.1)}
