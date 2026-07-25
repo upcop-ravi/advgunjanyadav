@@ -5709,16 +5709,16 @@ video {
 }
 @keyframes glowPulse {
 
-  0%, 100% {
-    box-shadow: 0 0 20px rgba(245, 158, 11, 0.3);
-  }
+ 0%, 100% {
+ box-shadow: 0 40px 100px rgba(0, 0, 0, 0.6), 0 0 20px rgba(245, 158, 11, 0.3);
+ }
 
-  50% {
-    box-shadow: 0 0 40px rgba(245, 158, 11, 0.6);
-  }
+ 50% {
+ box-shadow: 0 40px 100px rgba(0, 0, 0, 0.6), 0 0 40px rgba(245, 158, 11, 0.6);
+ }
 }
-.group\/link:hover .group-hover\/link\:animate-glow-pulse {
-  animation: glowPulse 2s ease-in-out infinite;
+.animate-glow-pulse {
+ animation: glowPulse 2s ease-in-out infinite;
 }
 @keyframes bounce {
 
