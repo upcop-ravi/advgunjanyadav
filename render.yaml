@@ -1,0 +1,9 @@
+services:
+  - type: static
+    name: advgunjanyadav
+    staticPublishPath: .
+    pullRequestPreviewsEnabled: false
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
