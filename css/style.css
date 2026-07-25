@@ -1596,7 +1596,7 @@ video {
 .animate-fade-in-up {
   animation: fadeInUp 0.8s ease-out forwards;
 }
-@keyframes float {
+.animate-shimmer{animation:shimmer 3s linear infinite}@keyframes shimmer{0%{background-position:200% 0}to{background-position:-200% 0}}.animate-fade-in-left{animation:fadeInLeft .8s ease-out forwards}@keyframes float {
 
   0%, 100% {
     transform: translateY(0px);
