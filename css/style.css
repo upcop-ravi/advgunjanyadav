@@ -5720,6 +5720,12 @@ video {
 .animate-glow-pulse {
  animation: glowPulse 2s ease-in-out infinite;
 }
+
+/* Image glow */
+.img-glow {
+ animation: glowPulse 2s ease-in-out infinite;
+ filter: drop-shadow(0 0 12px rgba(245, 158, 11, 0.35));
+}
 @keyframes bounce {
 
   0%, 100% {
