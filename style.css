@@ -277,7 +277,35 @@ html, body {
     }
 }
 
+/* Mobile Menu Drawer Overlay */
+#mobile-menu {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    height: 100dvh !important;
+    background-color: rgba(3, 23, 18, 0.98) !important;
+    backdrop-filter: blur(16px) !important;
+    -webkit-backdrop-filter: blur(16px) !important;
+    z-index: 99999 !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
 
+#mobile-menu.hidden {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+}
 
-
-
+#mobile-menu-btn {
+    position: relative !important;
+    z-index: 100000 !important;
+    min-width: 44px !important;
+    min-height: 44px !important;
+    cursor: pointer !important;
+}
