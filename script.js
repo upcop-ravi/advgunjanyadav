@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     const mobileMenuBtn = document.getElementById('mobile-menu-btn');
-    const mobileMenuClose = document.getElementById('mobile-menu-close');
+    const mobileMenuClose = document.getElementById('mobile-drawer-close') || document.getElementById('mobile-menu-close');
     const mobileMenu = document.getElementById('mobile-menu');
 
     function closeMobileMenu() {
@@ -32,17 +32,8 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    const mobileDrawerClose = document.getElementById('mobile-drawer-close');
-
     if (mobileMenuClose) {
         mobileMenuClose.addEventListener('click', function (e) {
-            e.stopPropagation();
-            closeMobileMenu();
-        });
-    }
-
-    if (mobileDrawerClose) {
-        mobileDrawerClose.addEventListener('click', function (e) {
             e.stopPropagation();
             closeMobileMenu();
         });
@@ -595,36 +586,3 @@ function handleFormSubmission(event) {
     }
     return false;
 }
-// Mobile menu drawer logic
-(function() {
-  const menuBtn = document.getElementById('mobile-menu-btn');
-  const closeBtn = document.getElementById('mobile-menu-close');
-  const menu = document.getElementById('mobile-menu');
-  if (!menuBtn || !menu) return;
-
-  const open = () => {
-    menu.classList.remove('hidden');
-    if (closeBtn) closeBtn.classList.remove('hidden');
-    document.body.style.overflow = 'hidden';
-  };
-  const close = () => {
-    menu.classList.add('hidden');
-    if (closeBtn) closeBtn.classList.add('hidden');
-    document.body.style.overflow = '';
-  };
-
-  menuBtn.addEventListener('click', open);
-  if (closeBtn) closeBtn.addEventListener('click', close);
-
-  // Close on nav link click
-  menu.querySelectorAll('a[href]').forEach(link => {
-    link.addEventListener('click', () => {
-      close();
-    });
-  });
-
-  // Close on Escape
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') close();
-  });
-})();
