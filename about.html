@@ -246,34 +246,52 @@
         <!-- Mobile Menu Drawer -->
         </nav>
 <!-- Mobile Menu Overlay Drawer (Placed outside nav containing block) -->
-<div id="mobile-menu" class="hidden fixed inset-0 z-[99999] bg-navy-950/98 backdrop-blur-xl lg:hidden">
-    <div class="h-full overflow-y-auto px-6 pt-24 pb-28 flex flex-col justify-between">
-        <div class="flex flex-col gap-1">
-            <a href="index.html" class="flex items-center justify-between py-3.5 px-4 text-stone-200 hover:text-gold-400 font-bold text-base border-b border-white/10 active:scale-[0.98] transition-all rounded-lg hover:bg-white/5">
-                <span>Home</span>
-                <i class="fa-solid fa-chevron-right text-xs text-gold-500/60"></i>
-            </a>
-            <a href="about.html" class="flex items-center justify-between py-3.5 px-4 text-stone-200 hover:text-gold-400 font-bold text-base border-b border-white/10 active:scale-[0.98] transition-all rounded-lg hover:bg-white/5">
-                <span>About Firm</span>
-                <i class="fa-solid fa-chevron-right text-xs text-gold-500/60"></i>
-            </a>
-            <a href="services.html" class="flex items-center justify-between py-3.5 px-4 text-stone-200 hover:text-gold-400 font-bold text-base border-b border-white/10 active:scale-[0.98] transition-all rounded-lg hover:bg-white/5">
-                <span>Practice Areas</span>
-                <i class="fa-solid fa-chevron-right text-xs text-gold-500/60"></i>
-            </a>
-            <a href="courts.html" class="flex items-center justify-between py-3.5 px-4 text-stone-200 hover:text-gold-400 font-bold text-base border-b border-white/10 active:scale-[0.98] transition-all rounded-lg hover:bg-white/5">
-                <span>Courts</span>
-                <i class="fa-solid fa-chevron-right text-xs text-gold-500/60"></i>
-            </a>
-            <a href="team.html" class="flex items-center justify-between py-3.5 px-4 text-stone-200 hover:text-gold-400 font-bold text-base border-b border-white/10 active:scale-[0.98] transition-all rounded-lg hover:bg-white/5">
-                <span>Our Team</span>
-                <i class="fa-solid fa-chevron-right text-xs text-gold-500/60"></i>
-            </a>
-            <a href="blog-property-partition-suit.html" class="flex items-center justify-between py-3.5 px-4 text-stone-200 hover:text-gold-400 font-bold text-base border-b border-white/10 active:scale-[0.98] transition-all rounded-lg hover:bg-white/5">
-                <span>Journal</span>
-                <i class="fa-solid fa-chevron-right text-xs text-gold-500/60"></i>
-            </a>
+<div id="mobile-menu" class="hidden fixed inset-0 z-[99999] bg-[#040406]/98 backdrop-blur-xl lg:hidden">
+    <div class="h-full overflow-y-auto px-6 pt-6 pb-24 flex flex-col justify-between">
+        <div>
+            <!-- Mobile Drawer Header -->
+            <div class="flex justify-between items-center pb-6 mb-6 border-b border-white/10">
+                <div class="border-l-4 border-gold-500 pl-4">
+                    <span class="font-serif text-lg font-bold text-white tracking-wider block">ADVOCATE GUNJAN YADAV</span>
+                    <span class="font-sans text-[9px] font-bold text-gold-500 uppercase tracking-[0.3em] block">LEGAL</span>
+                </div>
+                <button id="mobile-drawer-close" aria-label="Close navigation menu" class="w-10 h-10 flex items-center justify-center text-stone-300 hover:text-white bg-white/10 rounded-lg active:scale-95 transition-all">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                </button>
+            </div>
+            <!-- Mobile Drawer Navigation Links -->
+            <div class="flex flex-col gap-1">
+                <a href="index.html" class="flex items-center justify-between py-3.5 px-4 text-stone-200 hover:text-gold-400 font-bold text-base border-b border-white/10 active:scale-[0.98] transition-all rounded-lg hover:bg-white/5">
+                    <span>Home</span>
+                    <i class="fa-solid fa-chevron-right text-xs text-gold-500/60"></i>
+                </a>
+                <a href="about.html" class="flex items-center justify-between py-3.5 px-4 text-stone-200 hover:text-gold-400 font-bold text-base border-b border-white/10 active:scale-[0.98] transition-all rounded-lg hover:bg-white/5">
+                    <span>About Firm</span>
+                    <i class="fa-solid fa-chevron-right text-xs text-gold-500/60"></i>
+                </a>
+                <a href="services.html" class="flex items-center justify-between py-3.5 px-4 text-stone-200 hover:text-gold-400 font-bold text-base border-b border-white/10 active:scale-[0.98] transition-all rounded-lg hover:bg-white/5">
+                    <span>Practice Areas</span>
+                    <i class="fa-solid fa-chevron-right text-xs text-gold-500/60"></i>
+                </a>
+                <a href="courts.html" class="flex items-center justify-between py-3.5 px-4 text-stone-200 hover:text-gold-400 font-bold text-base border-b border-white/10 active:scale-[0.98] transition-all rounded-lg hover:bg-white/5">
+                    <span>Courts</span>
+                    <i class="fa-solid fa-chevron-right text-xs text-gold-500/60"></i>
+                </a>
+                <a href="team.html" class="flex items-center justify-between py-3.5 px-4 text-stone-200 hover:text-gold-400 font-bold text-base border-b border-white/10 active:scale-[0.98] transition-all rounded-lg hover:bg-white/5">
+                    <span>Our Team</span>
+                    <i class="fa-solid fa-chevron-right text-xs text-gold-500/60"></i>
+                </a>
+                <a href="blog-property-partition-suit.html" class="flex items-center justify-between py-3.5 px-4 text-stone-200 hover:text-gold-400 font-bold text-base border-b border-white/10 active:scale-[0.98] transition-all rounded-lg hover:bg-white/5">
+                    <span>Journal</span>
+                    <i class="fa-solid fa-chevron-right text-xs text-gold-500/60"></i>
+                </a>
+                <a href="contact.html" class="flex items-center justify-between py-3.5 px-4 text-stone-200 hover:text-gold-400 font-bold text-base border-b border-white/10 active:scale-[0.98] transition-all rounded-lg hover:bg-white/5">
+                    <span>Contact Us</span>
+                    <i class="fa-solid fa-chevron-right text-xs text-gold-500/60"></i>
+                </a>
+            </div>
         </div>
+        <!-- Mobile Drawer Action Buttons -->
         <div class="mt-8 flex flex-col gap-3">
             <a href="tel:9454072550" class="w-full flex items-center justify-center gap-2 py-3.5 bg-gradient-to-r from-red-600 to-red-700 text-white font-bold uppercase text-xs tracking-widest rounded-lg shadow-lg active:scale-[0.98] transition-transform min-h-[48px]">
                 <i class="fa-solid fa-phone text-sm"></i> Emergency Call (+91 94 540 72 550)

@@ -32,8 +32,17 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
+    const mobileDrawerClose = document.getElementById('mobile-drawer-close');
+
     if (mobileMenuClose) {
         mobileMenuClose.addEventListener('click', function (e) {
+            e.stopPropagation();
+            closeMobileMenu();
+        });
+    }
+
+    if (mobileDrawerClose) {
+        mobileDrawerClose.addEventListener('click', function (e) {
             e.stopPropagation();
             closeMobileMenu();
         });
