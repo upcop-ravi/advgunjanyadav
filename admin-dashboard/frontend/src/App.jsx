@@ -84,7 +84,7 @@ export default function App() {
           <div className="h-8 w-8 bg-gold-500/10 border border-gold-400/20 rounded-full flex items-center justify-center">
             <Scale className="h-4 w-4 text-gold-400" />
           </div>
-          <span className="font-serif font-bold text-white text-md">Adv. Gunjan Yadav</span>
+          <span className="font-serif font-bold text-white text-md">Advocate Gunjan Yadav</span>
         </div>
         <button
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -107,7 +107,7 @@ export default function App() {
               <Scale className="h-5 w-5 text-gold-400" />
             </div>
             <div>
-              <h2 className="font-serif font-bold text-white text-sm">Adv. Gunjan Yadav</h2>
+              <h2 className="font-serif font-bold text-white text-sm">Advocate Gunjan Yadav</h2>
               <p className="text-[10px] text-stone-400 font-sans uppercase tracking-wider mt-0.5">Legal Console</p>
             </div>
           </div>

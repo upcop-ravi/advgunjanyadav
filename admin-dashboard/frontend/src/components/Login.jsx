@@ -71,7 +71,7 @@ export default function Login({ onLoginSuccess }) {
             <Scale className="h-8 w-8 text-gold-400" />
           </div>
           <h2 className="mt-4 text-3xl font-bold tracking-tight text-white font-serif">
-            Adv. Gunjan Yadav
+            Advocate Gunjan Yadav
           </h2>
           <p className="mt-2 text-sm text-stone-400 font-sans">
             &amp; Legal — Admin Portal
