@@ -1,0 +1,336 @@
+[
+    {
+        "image":  "images/advocate-portrait.png",
+        "id":  "advocate-gunjan",
+        "education":  [
+                          "LL.M (Criminal Law)",
+                          "LL.B"
+                      ],
+        "category":  "lawyer",
+        "role":  "Principal Advocate (Criminal \u0026 Constitutional Law)",
+        "name":  "Advocate Gunjan",
+        "active":  true,
+        "expertise":  [
+                          "Cyber Crime Defense",
+                          "Criminal Defense",
+                          "Family Law",
+                          "Civil Litigation"
+                      ],
+        "socialLinks":  {
+                            "linkedin":  "https://www.linkedin.com/in/adv-gunjan-yadav/",
+                            "instagram":  "https://www.instagram.com/advgunjanyadav/",
+                            "twitter":  "https://x.com/advgunjanlegal",
+                            "facebook":  "https://www.facebook.com/profile.php?id=61591966683881"
+                        },
+        "bio":  "A lawyer of high standing in Ghaziabad, Advocate Gunjan has defined his career by taking on the most challenging criminal and constitutional cases. His courtroom demeanor is marked by calm authority and ruthless logic."
+    },
+    {
+        "image":  "images/adv-ram-laxman-tiwari.png",
+        "id":  "adv-ram-laxman-tiwari",
+        "education":  [
+                          "LL.B",
+                          "Diploma in Land Laws"
+                      ],
+        "category":  "lawyer",
+        "role":  "Senior Associate (Civil \u0026 Revenue)",
+        "name":  "Adv. Ram Laxman Tiwari",
+        "active":  true,
+        "expertise":  [
+                          "Revenue Appeals",
+                          "Property Partition"
+                      ],
+        "socialLinks":  {
+                            "linkedin":  "#",
+                            "instagram":  "#",
+                            "twitter":  "#",
+                            "facebook":  "#"
+                        },
+        "bio":  "With specialized command over the UP Revenue Code and Land Laws, Adv. Tiwari heads the civil litigation wing. He is the strategist behind many successful land dispute resolutions and compensation claims."
+    },
+    {
+        "image":  "images/adv-akhilesh-pathak.png",
+        "id":  "adv-pankaj-kumar",
+        "education":  [
+                          "LL.B."
+                      ],
+        "category":  "lawyer",
+        "role":  "Associate",
+        "name":  "Adv. Pankaj Kumar",
+        "active":  true,
+        "expertise":  [
+                          "Legal Research",
+                          "Procedural Law"
+                      ],
+        "socialLinks":  {
+                            "linkedin":  "#",
+                            "instagram":  "#",
+                            "twitter":  "#",
+                            "facebook":  "#"
+                        },
+        "bio":  "Legal professional focused on procedural accuracy and case research."
+    },
+    {
+        "image":  "images/adv-ajay-yadav.png",
+        "id":  "adv-nirbhay-jain",
+        "education":  [
+                          "LL.B."
+                      ],
+        "category":  "lawyer",
+        "role":  "Associate",
+        "name":  "Adv. Nirbhay Jain",
+        "active":  true,
+        "expertise":  [
+                          "Civil Litigation",
+                          "Criminal Defense"
+                      ],
+        "socialLinks":  {
+                            "linkedin":  "https://www.linkedin.com/in/adv-ajay-yadav-056708235/",
+                            "instagram":  "#",
+                            "twitter":  "https://x.com/AjayYadav689025",
+                            "facebook":  "https://www.facebook.com/ajay.yadav.689025"
+                        },
+        "bio":  "Dedicated legal professional committed to excellence and client service."
+    },
+    {
+        "image":  "images/adv-surendra-kumar-yadav.png",
+        "id":  "adv-prashant",
+        "education":  [
+                          "LL.B."
+                      ],
+        "category":  "lawyer",
+        "role":  "Associate",
+        "name":  "Adv. Prashant",
+        "active":  true,
+        "expertise":  [
+                          "Civil Law",
+                          "Legal Aid"
+                      ],
+        "socialLinks":  {
+                            "linkedin":  "#",
+                            "instagram":  "#",
+                            "twitter":  "#",
+                            "facebook":  "#"
+                        },
+        "bio":  "Dedicated legal professional committed to excellence and client service."
+    },
+    {
+        "image":  "images/advocate-portrait.png",
+        "id":  "adv-vikash-kumar",
+        "education":  [
+                          "LL.B."
+                      ],
+        "category":  "lawyer",
+        "role":  "Associate",
+        "name":  "Adv. Vikash Kumar",
+        "active":  true,
+        "expertise":  [
+                          "Corporate Law",
+                          "Documentation"
+                      ],
+        "socialLinks":  {
+                            "linkedin":  "#",
+                            "instagram":  "#",
+                            "twitter":  "#",
+                            "facebook":  "#"
+                        },
+        "bio":  "Dedicated legal professional committed to excellence and client service."
+    },
+    {
+        "image":  "images/advocate-portrait.png",
+        "id":  "adv-saif-ahmad",
+        "education":  [
+                          "LL.B."
+                      ],
+        "category":  "lawyer",
+        "role":  "Associate",
+        "name":  "Adv. Saif Ahmad",
+        "active":  true,
+        "expertise":  [
+                          "Consumer Law",
+                          "Arbitration"
+                      ],
+        "socialLinks":  {
+                            "linkedin":  "#",
+                            "instagram":  "#",
+                            "twitter":  "#",
+                            "facebook":  "#"
+                        },
+        "bio":  "Dedicated legal professional committed to excellence and client service."
+    },
+    {
+        "image":  "images/adv-siddhant-anand.png",
+        "id":  "adv-siddhant-anand",
+        "education":  [
+                          "LL.B."
+                      ],
+        "category":  "lawyer",
+        "role":  "Associate",
+        "name":  "Adv. Siddhant Anand",
+        "active":  true,
+        "expertise":  [
+                          "Property Law",
+                          "Drafting"
+                      ],
+        "socialLinks":  {
+                            "linkedin":  "#",
+                            "instagram":  "#",
+                            "twitter":  "#",
+                            "facebook":  "#"
+                        },
+        "bio":  "Dedicated legal professional committed to excellence and client service."
+    },
+    {
+        "image":  "images/advocate-portrait.png",
+        "id":  "adv-rajesh-kumar-yadav",
+        "education":  [
+                          "LL.B."
+                      ],
+        "category":  "lawyer",
+        "role":  "Senior Associate",
+        "name":  "Adv. Rajesh Kumar Yadav",
+        "active":  true,
+        "expertise":  [
+                          "Civil Litigation",
+                          "Criminal Defense"
+                      ],
+        "socialLinks":  {
+                            "linkedin":  "#",
+                            "instagram":  "#",
+                            "twitter":  "#",
+                            "facebook":  "#"
+                        },
+        "bio":  "Experienced in handling complex litigation with a focus on client success. Specializes in Civil and Criminal Litigation."
+    },
+    {
+        "image":  "images/advocate-portrait.png",
+        "id":  "adv-nihal-qureshi",
+        "education":  [
+                          "LL.B."
+                      ],
+        "category":  "lawyer",
+        "role":  "Associate",
+        "name":  "Adv. Nihal Qureshi",
+        "active":  true,
+        "expertise":  [
+                          "Litigation",
+                          "Research"
+                      ],
+        "socialLinks":  {
+                            "linkedin":  "#",
+                            "instagram":  "#",
+                            "twitter":  "#",
+                            "facebook":  "#"
+                        },
+        "bio":  "Dedicated legal professional committed to excellence and client service."
+    },
+    {
+        "image":  "images/advocate-portrait.png",
+        "id":  "adv-balram-ji-kori",
+        "education":  [
+                          "LL.B."
+                      ],
+        "category":  "lawyer",
+        "role":  "Associate",
+        "name":  "Adv. Balram Ji Kori",
+        "active":  true,
+        "expertise":  [
+                          "Civil Law",
+                          "Drafting"
+                      ],
+        "socialLinks":  {
+                            "linkedin":  "#",
+                            "instagram":  "#",
+                            "twitter":  "#",
+                            "facebook":  "#"
+                        },
+        "bio":  "Dedicated legal professional committed to excellence and client service."
+    },
+    {
+        "image":  "images/adv-ajay-sahu.png",
+        "id":  "adv-ajay-sahu",
+        "education":  [
+                          "LL.B."
+                      ],
+        "category":  "lawyer",
+        "role":  "Associate",
+        "name":  "Adv. Ajay Sahu",
+        "active":  true,
+        "expertise":  [
+                          "Litigation",
+                          "Documentation"
+                      ],
+        "socialLinks":  {
+                            "linkedin":  "#",
+                            "instagram":  "#",
+                            "twitter":  "#",
+                            "facebook":  "#"
+                        },
+        "bio":  "Dedicated legal professional committed to excellence and client service."
+    },
+    {
+        "image":  "images/advocate-portrait.png",
+        "id":  "adv-rajesh-kumar-srivastava",
+        "education":  [
+                          "LL.B."
+                      ],
+        "category":  "lawyer",
+        "role":  "Senior Associate",
+        "name":  "Adv. Rajesh Kumar Srivastava",
+        "active":  true,
+        "expertise":  [
+                          "Corporate Governance",
+                          "High Court Advocacy"
+                      ],
+        "socialLinks":  {
+                            "linkedin":  "#",
+                            "instagram":  "#",
+                            "twitter":  "#",
+                            "facebook":  "#"
+                        },
+        "bio":  "Senior legal counsel specializing in corporate governance, compliance, and High Court advocacy."
+    },
+    {
+        "image":  "images/advocate-portrait.png",
+        "id":  "adv-rahul-pandey",
+        "education":  [
+                          "LL.B."
+                      ],
+        "category":  "lawyer",
+        "role":  "Associate",
+        "name":  "Adv. Rahul Pandey",
+        "active":  true,
+        "expertise":  [
+                          "Civil Litigation",
+                          "Revenue Appeals"
+                      ],
+        "socialLinks":  {
+                            "linkedin":  "#",
+                            "instagram":  "#",
+                            "twitter":  "#",
+                            "facebook":  "#"
+                        },
+        "bio":  "Focused on civil litigation, revenue appeals, and procedural law."
+    },
+    {
+        "image":  "images/advocate-portrait.png",
+        "id":  "adv-jaikant-tiwari",
+        "education":  [
+                          "LL.B."
+                      ],
+        "category":  "lawyer",
+        "role":  "Associate",
+        "name":  "Adv. Jaikant Tiwari",
+        "active":  true,
+        "expertise":  [
+                          "Criminal Defense",
+                          "Bail Advocacy"
+                      ],
+        "socialLinks":  {
+                            "linkedin":  "#",
+                            "instagram":  "#",
+                            "twitter":  "#",
+                            "facebook":  "#"
+                        },
+        "bio":  "Specializing in criminal defense, bail advocacy, and legal aid."
+    }
+]
