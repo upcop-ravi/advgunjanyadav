@@ -33,19 +33,20 @@
     ],
     "category": "lawyer",
     "role": "Senior Associate (Civil & Revenue)",
-    "name": "Adv. Ram Laxman Tiwari",
+    "name": "Adv. Laxman Tiwari",
     "active": true,
     "expertise": [
       "Revenue Appeals",
       "Property Partition"
     ],
     "socialLinks": {
-      "linkedin": "#",
+      "facebook": "#",
       "instagram": "#",
       "twitter": "#",
-      "facebook": "#"
+      "linkedin": "#"
     },
-    "bio": "With specialized command over the UP Revenue Code and Land Laws, Adv. Tiwari heads the civil litigation wing. He is the strategist behind many successful land dispute resolutions and compensation claims."
+    "bio": "With specialized command over the UP Revenue Code and Land Laws, Adv. Tiwari heads the civil litigation wing. He is the strategist behind many successful land dispute resolutions and compensation claims.",
+    "updatedAt": "2026-08-03T08:40:55.760Z"
   },
   {
     "image": "images/adv-akhilesh-pathak.png",
