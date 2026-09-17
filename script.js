@@ -240,19 +240,29 @@ slidePrev();
 }
 const modal = document.getElementById('disclaimer-modal');
 const acceptBtn = document.getElementById('accept-disclaimer');
-if (modal && acceptBtn) {
-if (!localStorage.getItem('bci_disclaimer_accepted')) {
-modal.classList.remove('hidden');
-document.body.style.overflow = 'hidden';
-}
-acceptBtn.addEventListener('click', function () {
-modal.classList.add('opacity-0');
-localStorage.setItem('bci_disclaimer_accepted', 'true');
-setTimeout(() => {
-modal.classList.add('hidden');
-document.body.style.overflow = '';
-}, 300);
-});
+const exitBtn = document.getElementById('exit-disclaimer');
+if (modal) {
+    if (!localStorage.getItem('bci_disclaimer_accepted')) {
+        modal.classList.remove('hidden');
+        document.body.style.overflow = 'hidden';
+    }
+    if (acceptBtn) {
+        acceptBtn.addEventListener('click', function (e) {
+            e.preventDefault();
+            modal.classList.add('opacity-0');
+            localStorage.setItem('bci_disclaimer_accepted', 'true');
+            setTimeout(() => {
+                modal.classList.add('hidden');
+                document.body.style.overflow = '';
+            }, 300);
+        });
+    }
+    if (exitBtn) {
+        exitBtn.addEventListener('click', function (e) {
+            e.preventDefault();
+            window.location.href = 'https://www.google.com';
+        });
+    }
 }
 });
 

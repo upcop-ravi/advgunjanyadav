@@ -403,7 +403,7 @@ export default function SEOManager({ session }) {
               </label>
               <input
                 type="text"
-                placeholder="e.g. images/advocate-portrait.png"
+                placeholder="e.g. images/adv_gunjan_yadav.png"
                 value={ogImage}
                 onChange={(e) => setOgImage(e.target.value)}
                 className="appearance-none rounded-xl relative block w-full px-3 py-2.5 border border-stone-850 bg-[#031712]/50 placeholder-stone-600 text-white text-sm focus:outline-none focus:ring-1 focus:ring-gold-500 font-sans"
