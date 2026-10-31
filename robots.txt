@@ -4,5 +4,4 @@ Allow: /
 Disallow: /admin-dashboard/
 Disallow: /dashboard/
 
-Sitemap: http://www.advocategunjanyadav.in/sitemap.xml
-Sitemap: https://advocategunjanyadav.legal/sitemap.xml
+Sitemap: https://www.advocategunjanyadav.in/sitemap.xml
