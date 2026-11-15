@@ -1,0 +1,36 @@
+{
+  "name": "Advocate Gunjan Yadav | Legal Associates",
+  "short_name": "Adv Gunjan",
+  "description": "Advocate Gunjan Yadav - Chamber 670, District Court Ghaziabad. Practice Areas: Criminal Defense, Bail, Cyber Crime IT Act, DRT, Civil Litigation, Matrimonial Law.",
+  "icons": [
+    {
+      "src": "/favicon-16x16.png?v=2",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-32x32.png?v=2",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-48x48.png?v=2",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-192x192.png?v=2",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png?v=2",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0F172A",
+  "theme_color": "#0F172A"
+}
