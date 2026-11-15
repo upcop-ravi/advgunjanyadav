@@ -1328,59 +1328,42 @@
         </div>
     </footer>
 
-        <!-- MODULE 1: COMPULSORY BCI ENTRY DISCLAIMER (MODAL DIALOGUE) -->
-    <div id="disclaimer-modal" class="fixed inset-0 z-[100] hidden transition-opacity duration-300 overflow-y-auto overflow-x-hidden">
+    <!-- MODULE 1: COMPULSORY BCI ENTRY DISCLAIMER (MODAL DIALOGUE) -->
+    <div id="disclaimer-modal" class="fixed inset-0 z-[100] hidden transition-opacity duration-300">
         <!-- Dark backdrop -->
-        <div class="fixed inset-0 bg-navy-950/90 backdrop-blur-md"></div>
-
+        <div class="absolute inset-0 bg-navy-950/90 backdrop-blur-md"></div>
+        
         <!-- Modal Wrapper -->
-        <div class="relative min-h-full sm:min-h-screen w-full flex items-center justify-center p-3 sm:p-4 my-auto">
-            <div
-                class="bg-white max-w-2xl sm:max-w-3xl w-full rounded-xl sm:rounded-2xl shadow-2xl border-t-4 border-gold-500 overflow-hidden my-auto p-4 sm:p-8 text-navy-950 font-sans flex flex-col max-h-[calc(100dvh-1.5rem)] sm:max-h-[88vh]">
-                
-                <!-- Modal Header -->
-                <div class="border-b border-stone-200 pb-2.5 sm:pb-4 mb-2.5 sm:mb-4 shrink-0">
-                    <span class="text-[9px] sm:text-[10px] font-bold text-gold-600 uppercase tracking-[0.2em] block mb-1">
-                        BAR COUNCIL OF INDIA RULE 36 MANDATE
-                    </span>
-                    <h2 class="font-serif text-lg sm:text-2xl font-bold text-navy-950 leading-snug">
+        <div class="relative min-h-screen flex items-center justify-center p-4">
+            <div class="bg-white max-w-3xl w-full rounded-xl shadow-2xl border-t-4 border-gold-500 overflow-hidden my-auto p-6 sm:p-8 text-navy-950 font-sans">
+                <div class="border-b border-stone-200 pb-4 mb-5">
+                    <span class="text-[10px] font-bold text-gold-600 uppercase tracking-[0.25em] block mb-1">BAR COUNCIL OF INDIA RULE 36 MANDATE</span>
+                    <h2 class="font-serif text-2xl font-bold text-navy-950">
                         Bar Council of India Disclaimer &amp; Professional Mandate
                     </h2>
                 </div>
 
-                <!-- Modal Scrollable Content -->
-                <div
-                    class="flex-1 min-h-0 overflow-y-auto pr-1.5 sm:pr-2 custom-scrollbar text-[11px] sm:text-xs leading-relaxed text-stone-700 space-y-2.5 sm:space-y-3 mb-2.5 sm:mb-4">
+                <div class="text-xs leading-relaxed text-stone-700 space-y-3 mb-6 max-h-[60vh] overflow-y-auto pr-2 custom-scrollbar">
                     <p class="font-bold text-stone-900">
-                        As per the rules of the Bar Council of India, advocates are strictly prohibited from soliciting
-                        work or advertising their services through direct or indirect channels. By clicking 'I Agree'
-                        and proceeding, the user acknowledges that:
+                        As per the rules of the Bar Council of India, advocates are strictly prohibited from soliciting work or advertising their services through direct or indirect channels. By clicking 'I Agree' and proceeding, the user acknowledges that:
                     </p>
-                    <ol class="list-decimal pl-4 sm:pl-5 space-y-1.5 sm:space-y-2 text-stone-700 font-medium">
-                        <li>The user is seeking information regarding Advocate Gunjan Yadav solely for their own
-                            informational and academic purposes.</li>
-                        <li>There has been no advertisement, personal communication, solicitation, invitation, or
-                            inducement of any sort whatsoever from Advocate Gunjan Yadav or associates to solicit work
-                            through this website.</li>
-                        <li>The information provided under this portal does not constitute legal advice, nor does it
-                            create an advocate-client privilege.</li>
-                        <li>Advocate Gunjan Yadav is not liable for any consequence of any action taken by the user
-                            relying on material/information provided under this website.</li>
+                    <ol class="list-decimal pl-5 space-y-2.5 text-stone-700 font-medium">
+                        <li>The user is seeking information regarding Advocate Gunjan Yadav solely for their own informational and academic purposes.</li>
+                        <li>There has been no advertisement, personal communication, solicitation, invitation, or inducement of any sort whatsoever from Advocate Gunjan Yadav or associates to solicit work through this website.</li>
+                        <li>The information provided under this portal does not constitute legal advice, nor does it create an advocate-client privilege.</li>
+                        <li>Advocate Gunjan Yadav is not liable for any consequence of any action taken by the user relying on material/information provided under this website.</li>
                     </ol>
-                    <div class="bg-stone-100 border-l-4 border-gold-500 p-2.5 sm:p-3 mt-2 sm:mt-3 text-[10px] sm:text-[11px] italic text-stone-600 rounded-r">
-                        This portal is designed exclusively in compliance with Rule 36, Part VI, Chapter II of the Bar
-                        Council of India Rules.
+                    <div class="bg-stone-100 border-l-4 border-gold-500 p-3 mt-4 text-[11px] italic text-stone-600">
+                        This portal is designed exclusively in compliance with Rule 36, Part VI, Chapter II of the Bar Council of India Rules.
                     </div>
                 </div>
 
-                <!-- Modal Action Buttons (Always Visible at Bottom of Modal Card) -->
-                <div class="shrink-0 pt-2.5 sm:pt-4 border-t border-stone-200 bg-white grid grid-cols-2 sm:flex sm:flex-row sm:justify-end gap-2 sm:gap-3">
-                    <button id="exit-disclaimer" type="button"
-                        class="w-full sm:w-auto px-4 sm:px-6 py-2.5 border border-stone-300 text-stone-700 hover:bg-stone-100 font-sans font-bold text-[11px] sm:text-xs uppercase tracking-wider rounded transition-all text-center">
+                <!-- Modal Action Buttons -->
+                <div class="flex flex-col sm:flex-row justify-end gap-3 pt-4 border-t border-stone-200">
+                    <button id="exit-disclaimer" type="button" class="px-6 py-2.5 border border-stone-300 text-stone-700 hover:bg-stone-100 font-sans font-bold text-xs uppercase tracking-wider rounded transition-all">
                         [ EXIT ]
                     </button>
-                    <button id="accept-disclaimer" type="button"
-                        class="w-full sm:w-auto px-5 sm:px-8 py-2.5 bg-navy-950 hover:bg-gold-600 hover:text-navy-950 text-white font-sans font-bold text-[11px] sm:text-xs uppercase tracking-wider rounded shadow-md transition-all text-center">
+                    <button id="accept-disclaimer" type="button" class="px-8 py-2.5 bg-navy-950 hover:bg-gold-600 hover:text-navy-950 text-white font-sans font-bold text-xs uppercase tracking-wider rounded shadow-md transition-all">
                         [ I AGREE &amp; PROCEED ]
                     </button>
                 </div>
